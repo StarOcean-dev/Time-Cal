@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5em;
+    color: #f48fb1;
+}
+
+/* Event List */
+#event-list {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f8bbd0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f48fb1;
+}
+
+/* Input Fields */
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #f48fb1;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Add Event Button */
+button {
+    background-color: #f48fb1;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #f06292;
+}
+
+/* Output */
+#output p {
+    background-color: #f8bbd0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #4a4a4a;
+}
+
